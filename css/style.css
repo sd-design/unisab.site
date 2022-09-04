@@ -1,0 +1,243 @@
+:root {
+    --blue     : #39A1FF;
+    --light    : #F9F9F9;
+    --gray     : #ACACAC;
+  }
+html, body
+{
+    margin: 0;
+    background-color: var(--light);
+}
+h3
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.header, .history-slider, .footer
+  {
+    background-color: var(--blue);
+  }
+.header .header-nav
+{
+    border-bottom: 1px solid #fff;
+}
+.header .description h3
+  {
+    color: #fff;
+    font-size: 2.45rem;
+    padding-top: 5.05rem;
+  }
+.header .description p
+{
+    color: #fff; opacity: 0.7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+}
+
+.last-news
+{
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+}
+
+.last-news h3
+{
+color: #000;
+margin-bottom: 2rem;
+}
+.news-item
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #E1E1E1;
+    padding: 32px;
+}
+.news-header
+{
+margin-bottom: 1rem;
+}
+.news-title
+{
+    font-weight: 700;
+}
+.news-date
+{
+    color: var(--gray);
+}
+.news-body a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.history-slider 
+{
+    padding-top: 3rem;
+}
+.history-slider h3
+{
+    color: #fff;
+}
+
+.history-slider .carousel-indicators
+{
+    margin-bottom: -35px;
+}
+
+.history-slider .carousel-indicators [data-bs-target]
+{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #DBDBDB;
+}
+.history-slider .carousel-indicators .active
+{
+    background-color:rgba(219, 219, 219, 1)
+}
+
+
+/* Advantage Slider */
+.glide
+{
+  position: relative;
+    width: 84%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  margin: 0 auto;
+}
+.glide {
+    cursor: -webkit-grab;
+}
+.glide__slides, .glide__track {
+    overflow: hidden;
+}
+
+.glide__slides {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -ms-touch-action: pan-Y;
+    touch-action: pan-Y;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    will-change: transform;
+}
+
+.slider__frame {
+    white-space: inherit;
+    border-radius: 0.1666666667em;
+    text-align: center;
+    min-height: 350px;
+    -webkit-box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 50%);
+    box-shadow: inset 0 0 0 2px hsl(0deg 0% 100% / 50%);
+    background-color: #fff;
+    font-size: 1em;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    padding: 32px;
+}
+.slider__frame .desc
+{
+    line-height: 1.4;
+    margin-top: 32px;
+    white-space: inherit;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.glide__arrow {
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.slider__arrow {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    margin-top: -9px;
+}
+
+.slider__arrow--prev {
+    left: -35px;
+}
+.slider__arrow--next {
+    right: -35px;
+}
+
+.icon-advantage
+{
+    width: 144px;
+    height: 144px;
+}
+
+.footer
+{
+    min-height: 132px;
+    color: #fff;
+}
+.footer .copyright
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .contacts
+{
+    font-weight: 400;
+    font-style: normal; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.footer .contacts > div
+{
+    margin-left: 25px;
+}
+.footer .contacts img
+{
+    height: 32px;
+    width: auto;
+    margin-right: 3px;
+}
+.footer .contacts a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 300px) and (max-width: 576px){
+    .header .description h3
+    {
+        font-size: 1.6rem;
+        padding-top: 4.5rem;
+    } 
+    .header .description p
+    {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }  
+    .carousel-inner .w-slide
+    {
+        width: 100%;
+    }
+}
