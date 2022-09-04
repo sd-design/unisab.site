@@ -22,6 +22,22 @@ h3
 {
     border-bottom: 1px solid #fff;
 }
+.header .header-nav a
+{ 
+    color: #fff;
+    text-decoration: none;
+}
+.header-nav .phone 
+{
+    margin-left: 40px;
+}
+.header .header-nav .nav-menu img
+{
+    float: left;
+    margin-right: 5px;
+    height: 32px;
+    width: auto;
+}
 .header .description h3
   {
     color: #fff;
@@ -239,5 +255,37 @@ margin-bottom: 1rem;
     .carousel-inner .w-slide
     {
         width: 100%;
+    }
+    .footer .copyright
+    {
+        margin-top: 20px;
+        padding-left: 25px;
+    }
+    .footer .contacts
+    {
+        flex-direction: column;
+        line-height: 1.1;
+    }
+    .footer .contacts a
+    {
+        display: contents;
+    }
+    .footer .contacts > div
+    {
+        margin-top: 25px;
+        align-items: center;
+        display: flex;
+    }
+    .footer .contacts div:last-child
+    {
+        margin-bottom: 40px;
+    }
+    .footer .contacts img
+    {
+        float: left; margin-right: 9px;
+    }
+    .d-mb-none
+    {
+        display: none;
     }
 }
