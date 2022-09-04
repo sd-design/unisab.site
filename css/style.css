@@ -288,4 +288,8 @@ margin-bottom: 1rem;
     {
         display: none;
     }
+    .last-news .news-body
+    {
+        font-size: 16px;
+    }
 }
