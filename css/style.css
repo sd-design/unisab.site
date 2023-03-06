@@ -20,12 +20,18 @@ h3
   }
 .header .header-nav
 {
-    border-bottom: 1px solid #fff;
+    background-color: var(--light);
+}
+.login {
+    display: flex;
+    align-items: center;
 }
 .header .header-nav a
 { 
-    color: #fff;
+    color: #150035;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .header-nav .phone 
 {
@@ -67,12 +73,11 @@ margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #fff;
     border-radius: 12px;
-    border: 1px solid #E1E1E1;
-    padding: 32px;
-    min-height: 531px;
+    min-height: 710px;
+    text-align: left;
 }
 .news-header
 {
@@ -81,10 +86,17 @@ margin-bottom: 1rem;
 .news-title
 {
     font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: 10px;
 }
 .news-date
 {
     color: var(--gray);
+}
+.news-body
+{
+    font-size: 1.05rem;
+    line-height: 1.41;
 }
 .news-body a{
     color: var(--blue);
@@ -293,4 +305,29 @@ margin-bottom: 1rem;
     {
         font-size: 16px;
     }
+    .news-title
+    {
+        font-size: 1.05rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .pano-slogan .description p
+    {
+        line-height: 1.45;
+        margin-bottom: 60px;
+    }
+    .slider__frame .desc
+    {
+        font-size: 18px;
+    }
+    .news-item
+    {
+        min-height: 550px;
+    }
+    .news-title
+    {
+        font-size: 1.05rem;
+    }
+
 }

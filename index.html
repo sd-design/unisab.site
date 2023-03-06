@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ЮниСАБ</title>
+    <title>ЮниСАБ – официальный сайт компании</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,30 +18,29 @@
 <div class="header-nav">
     <div class="container pt-3 pb-3 d-flex align-items-center justify-content-between">
         <div class="header-logo">
-            <img src="img/unisab_logo.svg" alt="ЮниСАБ логотип">
+            <img src="img/unisab_logo2.svg" alt="ЮниСАБ логотип">
         </div>
         <div class="nav-menu d-flex">
                 <div class="login">
-                    <!-- Ссылка на личный кабинет
-                    <a href="/lk"><img src="img/login_icon.svg" alt="Личный кабинет"><span class="d-mb-none">Войти в ЛК</span></a>
-                    -->
+                    <!-- Ссылка на личный кабинет -->
+                    <a href="https://unisab.intradesk.ru/" target="_blank"><img src="img/login_icon.svg" alt="Личный кабинет"><span class="d-mb-none">Войти в ЛК</span></a>
                 </div>
                 <div class="phone">
-                    <a href="tel:+74957414535"><img src="img/phone_icon.svg" alt="Телефон"><span class="d-mb-none">+7 495 741 4535</span></a>
+                    <a href="tel:+74957414535"><img src="img/phone_icon_top.svg" alt="Телефон"><span class="d-mb-none">+7 495 741 4535</span></a>
                 </div>           
         </div>
     </div>
 
 </div>        
-<div class="container">
+<div class="container pano-slogan">
     <div class="row">
-        <div class="col-sm-6 description">
-            <h3>Удивительно простые –<br>
+        <div class="col-sm-6 col-md-7 description">
+            <h3>Удивительно простые&nbsp;–<br>
                 сложные системы</h3>
             <p class="mt-5 pe-5">Комплексная автоматизация банковской деятельности с&nbsp;1995&nbsp;года. 
-Наш основной продукт: UBS.NET&nbsp;&mdash; полнофункциональное многокомпонентное решение для работы банка.</p>
+Основной продукт компании АБС &laquo;UBS.NET&raquo;&nbsp;– полнофункциональное многокомпонентное решение для&nbsp;автоматизации деятельности банков.</p>
         </div>
-        <div class="col-sm-6 p-4">
+        <div class="col-sm-6 col-md-5 p-4">
             <img src="img/header_pano.svg" alt="Удивительно простые – сложные системы" class="header-pano img-fluid">
         </div>
     </div>
@@ -50,40 +50,84 @@
     <section class="last-news">
         <div class="container">
             <h3 class="text-center">Последние новости</h3>
-            <div class="row">
-                <div class="col-sm-4 mb-4">
-                    <div class="news-item">
-                        <div class="news-header d-flex flex-row justify-content-between">
-                            <div class="news-title">АО&nbsp;РНКО &laquo;Холмск&raquo; успешно перешло на&nbsp;АБС &laquo;UBS.NET&raquo;</div>
-                            <div class="news-date">08.07.2022</div>
+
+            <div id="newsSlider" class="slider glide">
+                <div class="slider__track glide__track" data-glide-el="track">
+                  <ul class="slider__slides glide__slides">
+                    <li class="slider__frame glide__slide">
+                        <div class="news-item">
+                            <div class="news-header d-flex flex-xl-row flex-xxl-row flex-column flex-md-column justify-content-between">
+                                <div class="news-title">Новые возможности <br/>системы ДБО UBS.HOME <br/>в части авторизации, идентификации и регистрации новых клиентов с использованием ЕСИА/ЕБС – взаимодействие системы ДБО с ЕСИА/ЕБС через интеграционную платформу РНД СОФТ</div>
+                                <div class="news-date">29.12.2022</div>
+                            </div>
+                            <div class="news-body"><br/> Интеграционное решение существенно снижает для банков ресурсоемкость создания и обслуживания программно-аппаратной инфраструктуры для взаимодействия с ЕСИА/ЕБС, обеспечивая требуемый уровень информационной безопасности. <br/><br/><br/><br/><br/></div>
                         </div>
-                        <div class="news-body">В&nbsp;рамках полной замены АБС в&nbsp;РНКО автоматизированы: расчетно-кассовое обслуживание, денежные переводы и&nbsp;оплата услуг on-line, обязательная отчетность&nbsp;ЦБ, взаимодействие с&nbsp;ПС&nbsp;БР, Росфинмониторингом, ФНС, ФМС, ГИС ГМП, ГИС ЖКХ и&nbsp;другие направления деятельности.</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mb-4">
-                    <div class="news-item">
-                        <div class="news-header d-flex flex-row justify-content-between">
-                            <div class="news-title">Расширение функциональных возможностей модуля &laquo;Взаимодействие с&nbsp;платформой ЗСК&raquo;</div>
-                            <div class="news-date">24.06.2022</div>
+                    </li>
+
+                    <li class="slider__frame glide__slide">
+                        <div class="news-item">
+                            <div class="news-header d-flex flex-xl-row flex-xxl-row flex-column flex-md-column justify-content-between">
+                                <div class="news-title">Для взаимодействия с платформой личных финансов Финуслуги Московской биржи по сберегательным продуктам (вкладам) создан и успешно внедрен <br/>в ББР Банк (АО) новый бизнес-модуль АБС «UBS.NET» «Взаимодействие с MOEX (ДЕПОЗИТЫ)»</div>
+                                <div class="news-date">30.12.2022</div>
+                            </div>
+                            <div class="news-body"><br/>Новая функциональность:<br/> - предоставляет возможность управления продуктовым каталогом, публикуемым на витринах Платформы;<br/> - автоматизирует взаимодействие с Платформой на всех этапах жизненного цикла договоров вклада;<br/> - обеспечивает контроль взаимодействия через систему мониторинга, отражающую потоки взаимодействия с Платформой.<br/></div>
                         </div>
-                        <div class="news-body">Обеспечена возможность информирования о&nbsp;применении кредитной организацией к&nbsp;клиенту мер, предусмотренных абзацами вторым&nbsp;&mdash; четвертым пункта 5&nbsp;статьи 7&nbsp;Федерального закона &#8470;&nbsp;115-ФЗ; Функциональность управления риском легализации (отмывания) доходов, полученных преступным путем.</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mb-4">
-                    <div class="news-item">
-                        <div class="news-header d-flex flex-row justify-content-between">
-                            <div class="news-title">Расширение функциональных возможностей модуля &laquo;Взаимодействие с&nbsp;СБП&raquo;</div>
-                            <div class="news-date">20.06.2022</div>
+                    </li>
+        
+                    <li class="slider__frame glide__slide">
+                        <div class="news-item">
+                            <div class="news-header d-flex flex-xl-row flex-xxl-row flex-column flex-md-column justify-content-between">
+                                <div class="news-title">Поздравляем Вас с наступающим  Новым 2023 годом!</div>
+                                <div class="news-date">31.12.2022</div>
+                            </div>
+                            <div class="news-body"><br/> Пусть Новый год принесет Вам приятные встречи , искренние улыбки и  хорошее настроение! <br/> <br/>Счастья и благополучия Вам и Вашим близким!  <br/> <br/>Желаем Вам, чтобы в Новом году реализовались все намеченные проекты и всем Вашим начинаниям сопутствовал успех! <br/> <br/>Благодарим Вас за сотрудничество и надеемся на дальнейшее взаимовыгодное развитие партнерских отношений!  <br/><br/><br/>  
+                            </div>
                         </div>
-                        <div class="news-body">Первые банки из&nbsp;числа наших клиентов приступили к&nbsp;прохождению TIV по&nbsp;функциональности интеграции с&nbsp;МП&nbsp;СБП. Физические лица смогут сервиса быстрых платежей с&nbsp;применением мобильного приложения СБП при осуществлении платежей физических лиц в&nbsp;пользу юрлиц и&nbsp;ИП.</div>
-                    </div>
+                    </li>
+            
+                    <li class="slider__frame glide__slide">
+                        <div class="news-item">
+                            <div class="news-header d-flex flex-xl-row flex-xxl-row flex-column flex-md-column justify-content-between">
+                                <div class="news-title">Поздравляем Вас с наступающим  Новым 2023 годом!</div>
+                                <div class="news-date">31.12.2022</div>
+                            </div>
+                            <div class="news-body"><br/> Пусть Новый год принесет Вам приятные встречи , искренние улыбки и  хорошее настроение! <br/> <br/>Счастья и благополучия Вам и Вашим близким!  <br/> <br/>Желаем Вам, чтобы в Новом году реализовались все намеченные проекты и всем Вашим начинаниям сопутствовал успех! <br/> <br/>Благодарим Вас за сотрудничество и надеемся на дальнейшее взаимовыгодное развитие партнерских отношений!  <br/><br/><br/>  
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="slider__frame glide__slide">
+                        <div class="news-item">
+                            <div class="news-header d-flex flex-xl-row flex-xxl-row flex-column flex-md-column justify-content-between">
+                                <div class="news-title">Поздравляем Вас с наступающим  Новым 2023 годом!</div>
+                                <div class="news-date">31.12.2022</div>
+                            </div>
+                            <div class="news-body"><br/> Пусть Новый год принесет Вам приятные встречи , искренние улыбки и  хорошее настроение! <br/> <br/>Счастья и благополучия Вам и Вашим близким!  <br/> <br/>Желаем Вам, чтобы в Новом году реализовались все намеченные проекты и всем Вашим начинаниям сопутствовал успех! <br/> <br/>Благодарим Вас за сотрудничество и надеемся на дальнейшее взаимовыгодное развитие партнерских отношений!  <br/><br/><br/>  
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
                 </div>
-            </div>
+                <div data-glide-el="controls">
+                  <button class="slider__arrow slider__arrow--prev glide__arrow glide__arrow--prev" data-glide-dir="<">
+                    <svg width="22" height="38" viewBox="0 0 22 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 3L3 19L19 35" stroke="#DBDBDB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+            
+                  <button class="slider__arrow slider__arrow--next glide__arrow glide__arrow--next" data-glide-dir=">">
+                    <svg width="22" height="38" viewBox="0 0 22 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 35L19 19L3 3" stroke="#DBDBDB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
         </div>
 
     </section>
     <section class="history-slider pb-3">
-        <h3 class="text-center mb-4">Наша история</h3>
+        <h3 class="text-center mb-4">История компании</h3>
         <div class="container pb-5">            
             <div id="carouselHistory" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -117,43 +161,69 @@
     </section>
     <section class="advantages pt-5">
         <div class="container">
-            <h3 class="text-center mb-5">Преимущества ubs.net</h3>
+            <h3 class="text-center mb-5">Преимущества UBS.NET</h3>
 
             <div id="advantageSlider" class="slider glide">
                 <div class="slider__track glide__track" data-glide-el="track">
                   <ul class="slider__slides glide__slides">
                     <li class="slider__frame glide__slide">
-                        <img src="img/advantages/1.svg" alt="" class="icon-advantage">
-                        <p class="desc">
-                            Наши система UBS.NET внедрена более чем в 40 банках России и зарекомендавала себя как одна из самых надежных
-                        </p>
-                    </li>
-            
-                    <li class="slider__frame glide__slide">
                         <img src="img/advantages/2.svg" alt="" class="icon-advantage">
                         <p class="desc">
-                            Кратчайшее время реакции для решения любых проблем при обращении в нашу службу технической поддержки
+                            On-line система с&nbsp;возможностью доступа клиентов 24&nbsp;часа в&nbsp;сутки и&nbsp;быстрая реакция технической поддержки по&nbsp;обращениям
                         </p>
                     </li>
-            
+
+                    <li class="slider__frame glide__slide">
+                        <img src="img/advantages/1.svg" alt="" class="icon-advantage">
+                        <p class="desc">
+                            Интеграция с&nbsp;системами электронных платежей, денежных переводов и&nbsp;карточными процессингами.
+                        </p>
+                    </li>
+        
                     <li class="slider__frame glide__slide">
                         <img src="img/advantages/3.svg" alt="" class="icon-advantage">
                         <p class="desc">
-                            On-Line решения по автоматизации для розничного и корпоративного обслуживания банк клиентов
+                            Автоматизация всего спектра банковских услуг для&nbsp;бизнеса любого масштаба с&nbsp;возможностью выполнения проектов &laquo;под ключ&raquo;
                         </p>
                     </li>
             
                     <li class="slider__frame glide__slide">
-                        <img src="img/advantages/4.svg" alt="" class="icon-advantage">
+                        <img src="img/advantages/6.svg" alt="" class="icon-advantage">
                         <p class="desc">
-                            Интеграция USB.NET с системами быстрых платежей, рублевых переводов, фондовых рынков, госсистемами (ГИС ГМП и ГИС ЖКХ)
+                            Интеграция с&nbsp;государственными информационными системами (ГИС ГМП, ГИС ЖКХ, ФССП, ФНС, ФМС, ФТС, ПФР)
                         </p>
                     </li>
             
                     <li class="slider__frame glide__slide">
                         <img src="img/advantages/5.svg" alt="" class="icon-advantage">
                         <p class="desc">
-                            Современные мобильные приложения для интернет и SMS банкинга
+                            Система дистанционного банковского обслуживания для&nbsp;клиентов банка (Web-интерфейс и&nbsp;мобильное приложение)
+                        </p>
+                    </li>
+
+                    <li class="slider__frame glide__slide">
+                        <img src="img/advantages/7.svg" alt="" class="icon-advantage">
+                        <p class="desc">
+                            Интеграция с&nbsp;системой быстрых платежей&nbsp;СБП (C2C, С2B, B2C, СБПэй, мобильное приложение ТСП)
+                        </p>
+                    </li>
+
+                    <li class="slider__frame glide__slide">
+                        <img src="img/advantages/4.svg" alt="" class="icon-advantage">
+                        <p class="desc">
+                            Полный спектр банковской отчетности, интеграция с&nbsp;БКИ, МИ&nbsp;ФНС, ЕПВВ ЦБ&nbsp;России
+                        </p>
+                    </li>
+                    <li class="slider__frame glide__slide">
+                        <img src="img/advantages/9.svg" alt="" class="icon-advantage">
+                        <p class="desc">
+                            Универсальная единая технологическая платформа для&nbsp;большинства современных операционных систем и&nbsp;сред исполнения
+                        </p>
+                    </li>
+                    <li class="slider__frame glide__slide">
+                        <img src="img/advantages/8.svg" alt="" class="icon-advantage">
+                        <p class="desc">
+                            Повышенная устойчивость и&nbsp;безопасность приложений, включая исполнение кода сторонних производителей
                         </p>
                     </li>
                   </ul>
@@ -176,7 +246,7 @@
 
     </section>  
     <section class="our-partners pt-5 pb-5">
-        <h3 class="text-center mb-4">Наши основные партнеры</h3>
+        <h3 class="text-center mb-5">Клиенты компании</h3>
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 mb-3">
@@ -187,6 +257,18 @@
                 </div>
                 <div class="col-sm-3 mb-3">
                     <img src="img/partners/crokus_bank.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-sm-3 mb-3">
+                    <img src="img/partners/rub_bank.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-sm-3 mb-3">
+                    <img src="img/partners/el_bank.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-sm-3 mb-3">
+                    <img src="img/partners/bbr_bank.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-sm-3 mb-3">
+                    <img src="img/partners/kassa_bank.jpg" alt="" class="w-100">
                 </div>
                 <div class="col-sm-3 mb-3">
                     <img src="img/partners/itd.jpg" alt="" class="w-100">
